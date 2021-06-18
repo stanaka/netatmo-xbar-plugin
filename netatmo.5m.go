@@ -1,6 +1,6 @@
 #!/usr/bin/env gorun
 
-// <xbar.title>Netatmo</xbar.title>
+// <xbar.title>Netatmo Weather Station</xbar.title>
 // <xbar.version>v0.1</xbar.version>
 // <xbar.author>Shinji Tanaka</xbar.author>
 // <xbar.author.github>stanaka</xbar.author.github>
