@@ -1,12 +1,12 @@
 # A xbar plugin for Netatmo Weather Station
 
-This [xbar](https://xbarapp.com/) plugin shows information sent from [Netatmo Weather Station](https://www.netatmo.com/en-us/weather/weatherstation).
+This [xbar](https://xbarapp.com/) plugin shows information sent by [Netatmo Weather Station](https://www.netatmo.com/en-us/weather/weatherstation).
 
 ![](https://raw.githubusercontent.com/stanaka/netatmo-xbar-plugin/main/netatmo-xbar-plugin.png)
 
 ## Install
 
-This plugin depends on [golang](https://golang.org/) and [gorun](https://github.com/erning/gorun), so please install both of them.
+This plugin depends on [Go](https://golang.org/) and [gorun](https://github.com/erning/gorun), so please install both of them.
 
 ## Configuration
 

@@ -4,10 +4,10 @@
 // <xbar.version>v0.1</xbar.version>
 // <xbar.author>Shinji Tanaka</xbar.author>
 // <xbar.author.github>stanaka</xbar.author.github>
-// <xbar.desc>Display weather station data</xbar.desc>
-// <xbar.image>http://www.hosted-somewhere/pluginimage</xbar.image>
+// <xbar.desc>Display information sent by Netatmo Weather Station</xbar.desc>
 // <xbar.dependencies>go, gorun</xbar.dependencies>
-// <xbar.abouturl>https://github.com/stanaka/xbar-netatmo-plugin/</xbar.abouturl>
+// <xbar.image>https://raw.githubusercontent.com/stanaka/netatmo-xbar-plugin/main/netatmo-xbar-plugin.png</xbar.image>
+// <xbar.abouturl>https://github.com/stanaka/netatmo-xbar-plugin/</xbar.abouturl>
 
 // Variables
 
@@ -40,8 +40,6 @@ func getAccessToken() string {
 	clientId := os.Getenv("VAR_CLIENT_ID")
 	clientSecret := os.Getenv("VAR_CLIENT_SECRET")
 	refreshToken := os.Getenv("VAR_REFRESH_TOKEN")
-
-	// fmt.Println("FOO:", os.Getenv("VAR_CLIENT_ID"))
 
 	uri := "https://api.netatmo.com/oauth2/token"
 	resp, err := http.PostForm(uri,
